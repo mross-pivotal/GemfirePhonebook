@@ -1,4 +1,6 @@
 *.iml
+domain/target/*
+webapp/target/*
 target/*
 mvnw
 mvnw.cmd
