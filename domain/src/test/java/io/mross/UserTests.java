@@ -19,6 +19,8 @@ public class UserTests {
     assertEquals("616-345-2212",phoneNumber);
 
     user.setPhoneNumber("5411120989");
+    user.standardizePhoneNumber('-');
+
     phoneNumber = user.getPhoneNumber();
 
     assertEquals("541-112-0989", phoneNumber);

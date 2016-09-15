@@ -66,7 +66,6 @@ import org.springframework.data.gemfire.mapping.Region;
 
   public void standardizePhoneNumber(char delimeter) {
 
-    System.out.println(phoneNumber + " " + phoneNumber.length());
     if (phoneNumber.length() == 12) {
       char oldDelimeter = phoneNumber.charAt(3);
 

@@ -1,1 +1,3 @@
-io/mross/PhonebookApplication.class
+io/mross/phonebook/webapp/PhonebookApplication.class
+io/mross/phonebook/webapp/UserRepository.class
+io/mross/phonebook/webapp/PhonebookController.class

@@ -60,7 +60,8 @@ public class PhonebookController {
   public String seed() {
 
     UUID id = UUID.randomUUID();
-    User user = new User(id.toString(),"Bobby Jenkins","516-941-5555","NYC");
+    System.out.println(id);
+    User user = new User(id.toString(),"Bobby Jenkins","5169415955","NYC");
 
     usersRepository.save(user);
     return  usersRepository.findAll().toString();

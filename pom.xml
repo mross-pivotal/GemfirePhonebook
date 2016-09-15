@@ -20,6 +20,7 @@
     <modules>
         <module>webapp</module>
         <module>domain</module>
+        <module>gemfire-server</module>
 
     </modules>
 
